@@ -176,6 +176,9 @@ main section{
 
 
 /* resume style */
+.resume{
+   margin-bottom: 115px;
+}
 .resume-container{
    display: flex;
    gap: 24px;
@@ -204,4 +207,44 @@ main section{
 }
 .resume-cv{
    margin-top: 50px;
+}
+
+
+/* footer style */
+footer{
+   display: flex;
+   gap: 115px;
+   padding: 130px 230px;
+}
+.footer-column{
+   width: 50%;
+}
+footer a img{
+   margin-top: 30px;
+   margin-right: 24px;
+}
+footer input[type="text"]{
+   width: 100%;
+   height: 64px;
+   border: none;
+   border-radius: 5px;
+   margin-bottom: 24px;
+}
+footer input[type="email"]{
+   width: 100%;
+   height: 64px;
+   border: none;
+   border-radius: 5px;
+   margin-bottom: 24px;
+
+}
+footer textarea{
+   width: 100%;
+   border: none;
+   border-radius: 5px;
+   margin-bottom: 24px;
+}
+footer p{
+   font-size: 16px;
+   color: #474747;
 }
